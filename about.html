@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet the team behind ALPHA — Cloud Computing student group project." />
+  <title>ALPHA | About</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVIGATION
+  ================================= -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Home">
+      <span aria-hidden="true"></span>
+      ALPHA
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active" aria-current="page">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <nav class="nav-mobile" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ==============================
+       MAIN CONTENT
+  ================================= -->
+  <main class="page-content">
+
+    <!-- ── ABOUT HERO BANNER ── -->
+    <header class="about-hero" aria-label="Page header">
+      <p class="section-label" style="justify-content: center; display: flex;">Our Story</p>
+      <h1>About ALPHA</h1>
+      <p>A passionate team of students working together on Cloud Computing</p>
+    </header>
+
+    <!-- ── PROJECT DESCRIPTION SECTION ── -->
+    <section class="section bg-white" aria-labelledby="project-heading">
+      <div class="section-inner">
+        <div class="about-split">
+
+          <!-- Image side -->
+          <div class="about-img-wrap">
+            <img
+              src="images/index.jpg"
+              alt="Team collaborating on the project"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Text side -->
+          <div class="about-text">
+            <p class="section-label">The Project</p>
+            <h2 class="section-title" id="project-heading">What We're Building &amp; Why</h2>
+
+            <p>
+              Our project explores the architecture, deployment, and scalability of cloud-based solutions as part of our Cloud Computing course. We investigate how organisations can leverage platforms like AWS, Azure, and Google Cloud to build resilient, cost-efficient, and highly available systems.
+            </p>
+            <p>
+              Through hands-on experimentation and research, we examine key cloud concepts including virtualisation, containerisation, serverless computing, and cloud security — translating classroom theory into practical, real-world insights.
+            </p>
+            <p>
+              Team ALPHA brings together skills in development, design, and version control to deliver a project that is both technically sound and thoughtfully presented.
+            </p>
+
+            <div style="margin-top: 2rem; display: flex; gap: 2rem; flex-wrap: wrap;">
+              <div>
+                <p style="font-size: 2rem; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; color: var(--navy);">3</p>
+                <p style="font-size: 0.85rem; color: var(--muted); font-weight: 500;">Team Members</p>
+              </div>
+              <div>
+                <p style="font-size: 2rem; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; color: var(--navy);">1</p>
+                <p style="font-size: 0.85rem; color: var(--muted); font-weight: 500;">Semester</p>
+              </div>
+              <div>
+                <p style="font-size: 2rem; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; color: var(--navy);">∞</p>
+                <p style="font-size: 0.85rem; color: var(--muted); font-weight: 500;">Ideas Explored</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TEAM MEMBERS SECTION ── -->
+    <section class="section" aria-labelledby="team-heading">
+      <div class="section-inner">
+        <p class="section-label">The People</p>
+        <h2 class="section-title" id="team-heading">Meet Our Team</h2>
+        <p class="section-lead">
+          We're a group of dedicated students each bringing unique skills and perspectives to the table.
+        </p>
+
+        <div class="team-grid">
+
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">RA</div>
+            <h3>Reginald Augustus Raymond</h3>
+            <p>GitHub Repository Manager</p>
+            <p style="font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">ID: 2425403341</p>
+          </article>
+
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">TD</div>
+            <h3>Tracy Dansoah Boadu</h3>
+            <p>Design &amp; Content</p>
+            <p style="font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">ID: 2425405019</p>
+          </article>
+
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">NJ</div>
+            <h3>Narh John Teye</h3>
+            <p>Developer</p>
+            <p style="font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">ID: 2425404765</p>
+          </article>
+<article class="member-card">
+            <div class="member-avatar" aria-hidden="true">NJ</div>
+            <h3>Godson buernortey Fiadzigbey</h3>
+            <p>Tester</p>
+            <p style="font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">ID: 2425402121</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CALL TO ACTION ── -->
+    <div class="divider-strip" role="complementary">
+      <h2>Want to reach out to us?</h2>
+      <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+    </div>
+
+  </main>
+
+  <!-- ==============================
+       FOOTER
+  ================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span aria-hidden="true"></span>
+        ALPHA
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> ALPHA &mdash; Cloud Computing. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
