@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ALPHA — Cloud Computing student project website." />
+  <title>ALPHA | Home</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVIGATION
+  ================================= -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Home">
+      <span aria-hidden="true"></span>
+      ALPHA
+    </a>
+
+    <!-- Desktop nav links -->
+    <ul class="nav-links">
+      <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Mobile hamburger button -->
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile dropdown menu -->
+  <nav class="nav-mobile" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ==============================
+       MAIN CONTENT
+  ================================= -->
+  <main class="page-content">
+
+    <!-- ── HERO SECTION ── -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-inner">
+
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <span class="hero-eyebrow">📚 Cloud Computing</span>
+          <h1 class="hero-title">
+            Welcome to<br /><em>ALPHA</em>
+          </h1>
+          <p class="hero-subtitle">
+            We're a team of three students exploring cloud infrastructure, deployment, and scalable solutions as part of our Cloud Computing course. This project brings together our research, development, and design skills.
+          </p>
+          <div class="hero-btns">
+            <a href="about.html" class="btn btn-primary">
+              Meet Our Team ↗
+            </a>
+            <a href="contact.html" class="btn btn-outline">
+              Get in Touch
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Image -->
+        <div class="hero-visual">
+          <div class="hero-img-wrap">
+            <!-- Placeholder image — swap with your own project image -->
+            <img
+              src="images/OIP.webp"
+              alt="Group project illustration"
+              loading="lazy"
+            />
+          </div>
+          <!-- Floating badge -->
+          <div class="hero-badge" aria-hidden="true">
+            <div class="hero-badge-icon">🎓</div>
+            <div class="hero-badge-text">
+              <strong>Student Project</strong>
+              Cloud Computing
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── HIGHLIGHTS / FEATURES SECTION ── -->
+    <section class="section bg-white" aria-labelledby="highlights-heading">
+      <div class="section-inner">
+        <p class="section-label">What We're About</p>
+        <h2 class="section-title" id="highlights-heading">Our Project at a Glance</h2>
+        <p class="section-lead">
+          Built on curiosity and teamwork, our project tackles real-world challenges using the concepts we've learned throughout the course.
+        </p>
+
+        <div class="features-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🔍</div>
+            <h3>Research-Driven</h3>
+            <p>Every decision is grounded in thorough research and evidence-based thinking, ensuring our solutions are practical and well-informed.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🤝</div>
+            <h3>Collaborative</h3>
+            <p>We leverage the diverse strengths and perspectives of every team member to create a richer, more complete final product.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">💡</div>
+            <h3>Innovative Thinking</h3>
+            <p>We challenge assumptions and explore creative approaches, pushing beyond conventional answers to find genuinely impactful solutions.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📊</div>
+            <h3>Data Informed</h3>
+            <p>Our conclusions are supported by data analysis and structured reasoning, making our findings transparent and reproducible.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CALL TO ACTION STRIP ── -->
+    <div class="divider-strip" role="complementary" aria-label="Call to action">
+      <h2>Curious about who we are?</h2>
+      <a href="about.html" class="btn btn-primary">Meet the Team →</a>
+    </div>
+
+  </main>
+
+  <!-- ==============================
+       FOOTER
+  ================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span aria-hidden="true"></span>
+        ALPHA
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> ALPHA &mdash; Cloud Computing. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==============================
+       JAVASCRIPT
+  ================================= -->
+  <script src="main.js"></script>
+
+</body>
+</html>
